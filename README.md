@@ -14,7 +14,6 @@ A aplicação está hospedada com Firebase Hosting e pode ser acessada através 
 
 ## 📸 Capturas de Tela (Screenshots)
 
-*(**Sugestão:** Adicione aqui alguns screenshots do seu aplicativo. Isso enriquece muito o README e permite que o recrutador veja seu trabalho de UI rapidamente.)*
 
 | Tela de Login | Tela de Cadastro | Página Inicial |
 | :-----------: | :--------------: | :------------: |
