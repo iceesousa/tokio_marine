@@ -64,7 +64,7 @@ Siga os passos abaixo para executar o projeto em sua máquina.
 
 -   [Flutter SDK](https://flutter.dev/docs/get-started/install) (versão 3.x ou superior)
 -   Um editor de código como [VS Code](https://code.visualstudio.com/) ou [Android Studio](https://developer.android.com/studio).
--   Uma conta no [Firebase](https://firebase.google.com/) para configurar o backend.
+-   Uma conta no [Firebase](https://firebase.google.com/) para configurar o backend. (Tambem pode pular esse passo e utilizar o meu backend).
 
 ### Passos para Execução
 
