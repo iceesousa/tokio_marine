@@ -81,6 +81,8 @@ Siga os passos abaixo para executar o projeto em sua máquina.
     -   Siga as instruções para adicionar o arquivo de configuração ao seu projeto Flutter (ex: `google-services.json` para Android ou o snippet de configuração para Web).
     -   Ative os serviços **Authentication** (com o provedor E-mail/Senha) e **Cloud Firestore**.
 
+> ⚠️ **Nota:** Você pode pular essa etapa se desejar utilizar o backend já configurado por mim.
+
 3.  **Instale as dependências do projeto:**
     ```sh
     flutter pub get
