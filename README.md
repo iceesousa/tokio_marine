@@ -11,6 +11,7 @@ Solução completa para o desafio de código da vaga de Desenvolvedor Flutter Pl
 A aplicação está hospedada com Firebase Hosting e pode ser acessada através do link abaixo:
 
 **[Acessar a versão web do aplicativo](https://tokio-2ab9a.web.app/)**
+> **Nota:** A aplicação foi desenvolvida e validada também para uso em dispositivos móveis. Caso prefira, você poderá avaliá-la diretamente pelo navegador utilizando as ferramentas de desenvolvedor no modo responsivo/mobile.
 
 ## 📸 Capturas de Tela  
 
