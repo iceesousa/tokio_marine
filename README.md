@@ -18,7 +18,7 @@ A aplicação está hospedada com Firebase Hosting e pode ser acessada através 
 
 | Tela de Login | Tela de Cadastro | Página Inicial |
 | :-----------: | :--------------: | :------------: |
-| `![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/entrar.png)` | `![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/cadastrar.png)` | `![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/inicio.png` |
+| ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/entrar.png) | `![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/cadastrar.png)` | `![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/inicio.png` |
 
 
 ## ✨ Funcionalidades Principais
@@ -77,7 +77,7 @@ Siga os passos abaixo para executar o projeto em sua máquina.
 
 2.  **Configuração do Firebase:**
     -   Crie um novo projeto no [console do Firebase](https://console.firebase.google.com/).
-    -   Configure um aplicativo para **Android**, **iOS** ou **Web**.
+    -   Configure um aplicativo para **Android** ou **Web**.
     -   Siga as instruções para adicionar o arquivo de configuração ao seu projeto Flutter (ex: `google-services.json` para Android ou o snippet de configuração para Web).
     -   Ative os serviços **Authentication** (com o provedor E-mail/Senha) e **Cloud Firestore**.
 
