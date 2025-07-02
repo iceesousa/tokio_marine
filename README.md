@@ -1,7 +1,7 @@
 # Desafio Flutter - Tokio Marine
 
 ![Status](https://img.shields.io/badge/status-concluído-green)
-![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![Flutter](https://img.shields.io/badge/Flutter-3.24.5-blue?logo=flutter)
 ![Firebase](https://img.shields.io/badge/Firebase-SDK-orange?logo=firebase)
 
 Solução completa para o desafio de código da vaga de Desenvolvedor Flutter Pleno na Tokio Marine. O projeto consiste em um aplicativo mobile com um fluxo de autenticação robusto e uma interface de usuário moderna e responsiva, desenvolvido com foco em boas práticas de arquitetura e qualidade de código.
