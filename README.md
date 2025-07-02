@@ -18,7 +18,7 @@ A aplicação está hospedada com Firebase Hosting e pode ser acessada através 
 
 | Tela de Login | Tela de Cadastro | Página Inicial |
 | :-----------: | :--------------: | :------------: |
-| ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/entrar.png) | ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/cadastrar.png) | ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/inicio.png |
+| ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/entrar.png) | ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/cadastrar.png) | ![](https://raw.githubusercontent.com/iceesousa/tokio_marine/main/prints/inicio.png) |
 
 
 ## ✨ Funcionalidades Principais
@@ -71,8 +71,8 @@ Siga os passos abaixo para executar o projeto em sua máquina.
 
 1.  **Clone o repositório:**
     ```sh
-    git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
-    cd NOME_DA_PASTA_DO_PROJETO
+    git clone [https://github.com/iceesousa/tokio_marine.git](https://github.com/iceesousa/tokio_marine.git)
+    cd tokio_marine
     ```
 
 2.  **Configuração do Firebase:**
@@ -97,8 +97,7 @@ Siga os passos abaixo para executar o projeto em sua máquina.
 
 Apesar do tempo limitado para o desenvolvimento, a base do projeto foi construída para ser escalável. Abaixo estão alguns pontos que seriam os próximos passos naturais para evoluir a aplicação:
 
--   **Cobertura de Testes:** Implementar testes unitários para os `Use Cases` e `BLoCs`, e testes de widget para os principais componentes da UI.
+-   **Cobertura de Testes:** Implementar testes unitários para os `DataSources`, `Repositories` e `BLoCs`, e testes de widget para os principais componentes da UI.
 -   **Recuperação de Senha:** Adicionar um fluxo de "Esqueci minha senha" utilizando os serviços do Firebase.
 -   **CI/CD (Integração e Entrega Contínua):** Configurar um pipeline com GitHub Actions para automatizar os testes e o processo de build.
 -   **Animações e Microinterações:** Adicionar animações sutis para melhorar a experiência do usuário.
--   **Modo Escuro (Dark Mode):** Implementar um tema escuro para a aplicação.
