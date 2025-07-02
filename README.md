@@ -18,11 +18,7 @@ A aplicação está hospedada com Firebase Hosting e pode ser acessada através 
 
 | Tela de Login | Tela de Cadastro | Página Inicial |
 | :-----------: | :--------------: | :------------: |
-| ## 📸 Capturas de Tela (Screenshots)
-
-| Tela de Login | Tela de Cadastro | Página Inicial |
-| :-----------: | :--------------: | :------------: |
-| `![](prints/entrar.png)` | `![](prints/cadastrar.png)` | `![](prints/inicio.png)` |
+| `![](https://github.com/iceesousa/tokio_marine/blob/6e2268c8da14c6f57a1f4e4f120b2552a66f26a5/prints/cadastrar.png)` | `![](prints/cadastrar.png)` | `![](prints/inicio.png)` |
 
 
 ## ✨ Funcionalidades Principais
