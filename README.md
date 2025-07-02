@@ -1,58 +1,108 @@
 # Desafio Flutter - Tokio Marine
 
-Este repositório contém a solução para o desafio de código para a vaga de Desenvolvedor Flutter Pleno na Tokio Marine. O objetivo foi desenvolver um aplicativo com um fluxo de autenticação completo, demonstrando boas práticas de desenvolvimento e arquitetura de software.
+![Status](https://img.shields.io/badge/status-concluído-green)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![Firebase](https://img.shields.io/badge/Firebase-SDK-orange?logo=firebase)
+
+Solução completa para o desafio de código da vaga de Desenvolvedor Flutter Pleno na Tokio Marine. O projeto consiste em um aplicativo mobile com um fluxo de autenticação robusto e uma interface de usuário moderna e responsiva, desenvolvido com foco em boas práticas de arquitetura e qualidade de código.
+
+## 🔗 Acesso ao Projeto (Deploy)
+
+A aplicação está hospedada com Firebase Hosting e pode ser acessada através do link abaixo:
+
+**[Acessar a versão web do aplicativo](https://tokio-2ab9a.web.app/)**
+
+## 📸 Capturas de Tela (Screenshots)
+
+*(**Sugestão:** Adicione aqui alguns screenshots do seu aplicativo. Isso enriquece muito o README e permite que o recrutador veja seu trabalho de UI rapidamente.)*
+
+| Tela de Login | Tela de Cadastro | Página Inicial |
+| :-----------: | :--------------: | :------------: |
+| ## 📸 Capturas de Tela (Screenshots)
+
+| Tela de Login | Tela de Cadastro | Página Inicial |
+| :-----------: | :--------------: | :------------: |
+| `![](prints/entrar.png)` | `![](prints/cadastrar.png)` | `![](prints/inicio.png)` |
 
 
-### TODO  COR ROXA DOS FORM FIELDS TEM QUE MUDAR
-### TODO MELHORAR O DESIGN DO DIALOG E ADICIONAR O ACTION BUTTON
-### TODO COLOCAR O ESPACAMENTO DOS ITENS DA HOME IGUAL O DO MOCK DISPONIBILIZADO
+## ✨ Funcionalidades Principais
 
-## ✨ Funcionalidades
-
-- **Autenticação de Usuário:**
-  - **Cadastro:** Permite que novos usuários se registrem com nome, e-mail, CPF e senha.
-  - **Login:** Autenticação segura utilizando CPF e senha.
-  - **Logout:** Encerra a sessão do usuário.
-- **Validação de Formulários:** Validação de dados em tempo real para garantir a integridade das informações.
-- **Gerenciamento de Sessão:** O aplicativo reage ao estado de autenticação do usuário, direcionando-o para a tela de login ou para a home.
-- **Interface Moderna:** UI limpa e responsiva, adaptada para diferentes tamanhos de tela.
+-   ✅ **Fluxo de Autenticação Completo:**
+    -   **Cadastro de Usuário:** Registro seguro com nome, e-mail, CPF e senha.
+    -   **Login:** Autenticação de usuários existentes via CPF e senha.
+    -   **Logout:** Encerramento seguro da sessão do usuário.
+-   🔒 **Gerenciamento de Sessão:** O estado da aplicação reage dinamicamente à autenticação, direcionando o usuário para a tela correta (Login ou Home).
+-   📝 **Validação de Formulários em Tempo Real:** Feedback instantâneo para o usuário, garantindo a integridade dos dados antes do envio.
+-   📱 **Interface Responsiva:** UI limpa e moderna que se adapta a diferentes tamanhos e orientações de tela.
+-   🌐 **Verificação de Conectividade:** Checagem de conexão com a internet antes de realizar operações de rede para uma melhor experiência do usuário.
 
 ---
 
 ## 🛠️ Arquitetura e Tecnologias
 
-O projeto foi estruturado seguindo os princípios da **Clean Architecture**, visando um código desacoplado, testável e de fácil manutenção.
+O projeto foi desenvolvido seguindo os princípios da **Clean Architecture**, dividindo o código em camadas de responsabilidade para garantir um sistema desacoplado, testável e de fácil manutenção.
 
-- **Camadas:**
-  - `Presentation`: Responsável pela UI e gerenciamento de estado (Widgets, BLoC).
-  - `Domain`: Contém as regras de negócio e entidades da aplicação (Use Cases, Repositories, Entities).
-  - `Data`: Implementa a lógica de acesso a dados, seja de fontes remotas ou locais (Repositories Impl, Data Sources).
+### Arquitetura em Camadas
 
-- **Principais Tecnologias Utilizadas:**
-  - **Gerenciamento de Estado:** `flutter_bloc` para um controle de estado reativo e previsível.
-  - **Injeção de Dependência:** `get_it` para desacoplar as classes e facilitar a substituição de dependências em testes.
-  - **Backend:** **Firebase** (`FirebaseAuth` para autenticação e `Cloud Firestore` para armazenamento de dados do usuário).
-  - **Tratamento de Erros:** `dartz` para uma abordagem funcional no tratamento de falhas e sucessos, tornando o fluxo mais robusto.
-  - **Validação:** Validadores customizados para os campos de entrada.
-  - **Conectividade:** `internet_connection_checker_plus` para verificar a conexão com a internet antes de operações de rede.
+-   **`Presentation`**: Camada responsável pela UI (Widgets) e pelo gerenciamento de estado, utilizando o padrão **BLoC**.
+-   **`Domain`**: Contém as regras de negócio puras, entidades e os contratos dos repositórios (Abstrações). É o coração da aplicação, totalmente independente de frameworks.
+-   **`Data`**: Implementa os repositórios definidos no `Domain` e gerencia as fontes de dados (Data Sources), sejam elas remotas (Firebase) ou locais.
+
+### Principais Tecnologias Utilizadas
+
+-   **Gerenciamento de Estado:** `flutter_bloc` para um controle de estado reativo, previsível e escalável.
+-   **Injeção de Dependência:** `get_it` para gerenciar a injeção de dependências, facilitando o desacoplamento e os testes.
+-   **Backend (BaaS):** **Firebase** para uma solução de backend robusta e escalável:
+    -   `FirebaseAuth` para o sistema de autenticação.
+    -   `Cloud Firestore` para o armazenamento de dados dos usuários.
+-   **Tratamento de Erros Funcional:** `dartz` para lidar com operações que podem falhar (como chamadas de API) de forma explícita e segura, utilizando `Either` para representar Sucesso ou Falha.
+-   **Conectividade:** `internet_connection_checker_plus` para verificar o status da conexão com a internet.
+-   **Validação:** Validadores customizados para garantir a integridade e o formato correto dos dados de entrada.
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como Executar o Projeto Localmente
+
+Siga os passos abaixo para executar o projeto em sua máquina.
+
+### Pré-requisitos
+
+-   [Flutter SDK](https://flutter.dev/docs/get-started/install) (versão 3.x ou superior)
+-   Um editor de código como [VS Code](https://code.visualstudio.com/) ou [Android Studio](https://developer.android.com/studio).
+-   Uma conta no [Firebase](https://firebase.google.com/) para configurar o backend.
+
+### Passos para Execução
 
 1.  **Clone o repositório:**
     ```sh
-    git clone <URL_DO_SEU_REPOSITORIO>
+    git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+    cd NOME_DA_PASTA_DO_PROJETO
     ```
 
+2.  **Configuração do Firebase:**
+    -   Crie um novo projeto no [console do Firebase](https://console.firebase.google.com/).
+    -   Configure um aplicativo para **Android**, **iOS** ou **Web**.
+    -   Siga as instruções para adicionar o arquivo de configuração ao seu projeto Flutter (ex: `google-services.json` para Android ou o snippet de configuração para Web).
+    -   Ative os serviços **Authentication** (com o provedor E-mail/Senha) e **Cloud Firestore**.
 
-2.  **Instale as dependências:**
+3.  **Instale as dependências do projeto:**
     ```sh
     flutter pub get
     ```
 
-3.  **Execute o aplicativo:**
+4.  **Execute o aplicativo:**
     ```sh
     flutter run
     ```
 
+---
+
+## 💡 Melhorias Futuras e Próximos Passos
+
+Apesar do tempo limitado para o desenvolvimento, a base do projeto foi construída para ser escalável. Abaixo estão alguns pontos que seriam os próximos passos naturais para evoluir a aplicação:
+
+-   **Cobertura de Testes:** Implementar testes unitários para os `Use Cases` e `BLoCs`, e testes de widget para os principais componentes da UI.
+-   **Recuperação de Senha:** Adicionar um fluxo de "Esqueci minha senha" utilizando os serviços do Firebase.
+-   **CI/CD (Integração e Entrega Contínua):** Configurar um pipeline com GitHub Actions para automatizar os testes e o processo de build.
+-   **Animações e Microinterações:** Adicionar animações sutis para melhorar a experiência do usuário.
+-   **Modo Escuro (Dark Mode):** Implementar um tema escuro para a aplicação.
