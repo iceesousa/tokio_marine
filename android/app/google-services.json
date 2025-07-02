@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332992392606",
+    "project_id": "tokio-2ab9a",
+    "storage_bucket": "tokio-2ab9a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332992392606:android:83748645048b47384bba8f",
+        "android_client_info": {
+          "package_name": "com.example.tokio_marine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHIS5ynGqtwdhdS2Ak9fBCwHhL2-3K03U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
