@@ -6,13 +6,13 @@
 
 Solução completa para o desafio de código da vaga de Desenvolvedor Flutter Pleno na Tokio Marine. O projeto consiste em um aplicativo mobile com um fluxo de autenticação robusto e uma interface de usuário moderna e responsiva, desenvolvido com foco em boas práticas de arquitetura e qualidade de código.
 
-## 🔗 Acesso ao Projeto (Deploy)
+## 🔗 Acesso ao Projeto / Deploy
 
 A aplicação está hospedada com Firebase Hosting e pode ser acessada através do link abaixo:
 
 **[Acessar a versão web do aplicativo](https://tokio-2ab9a.web.app/)**
 
-## 📸 Capturas de Tela (Screenshots)
+## 📸 Capturas de Tela  
 
 
 | Tela de Login | Tela de Cadastro | Página Inicial |
