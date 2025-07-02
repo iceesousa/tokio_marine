@@ -70,7 +70,7 @@ Siga os passos abaixo para executar o projeto em sua máquina.
 
 1.  **Clone o repositório:**
     ```sh
-    git clone (https://github.com/iceesousa/tokio_marine.git](https://github.com/iceesousa/tokio_marine.git)
+    git clone https://github.com/iceesousa/tokio_marine.git](https://github.com/iceesousa/tokio_marine.git
     cd tokio_marine
     ```
 
