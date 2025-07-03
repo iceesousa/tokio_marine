@@ -6,6 +6,8 @@
 
 Solução completa para o desafio de código da vaga de Desenvolvedor Flutter Pleno na Tokio Marine. O projeto consiste em um aplicativo mobile com um fluxo de autenticação robusto e uma interface de usuário moderna e responsiva, desenvolvido com foco em boas práticas de arquitetura e qualidade de código.
 
+> **Nota:** esse Github é um Github secundario, estou utilizando ele para nao ter divergencias  com meu empregador atual(usamos Github Enterprise). Projeto feito em 24 horas por ter pouco tempo por causa do presencial. 
+
 ## 🔗 Acesso ao Projeto / Deploy
 
 A aplicação está hospedada com Firebase Hosting e pode ser acessada através do link abaixo:
